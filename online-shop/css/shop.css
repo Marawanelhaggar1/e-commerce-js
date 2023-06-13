@@ -1,0 +1,40 @@
+.bbb {
+  color: #ffd333 !important;
+  background-color: #3d464d;
+}
+
+.layout {
+  max-width: 100%;
+}
+
+.layout > div img {
+  max-width: 300px;
+}
+
+.layout div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.layout div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout .stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout .text {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout .action {
+  display: flex;
+  flex-direction: row;
+}
